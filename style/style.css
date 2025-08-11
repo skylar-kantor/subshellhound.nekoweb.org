@@ -1,0 +1,60 @@
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 100%;
+  background-color: #f8b3d0;
+  padding: 10px;
+}
+
+.navlink{
+  background-color: #ffffff;
+  border: 2px solid #c084fc; /* 💜 Lilac hacker energy */
+  display: block;
+  padding: 6px;
+  margin: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+.navlink:hover {
+  background-color: #ffe0f0;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Comic Neue", sans-serif;
+  background: linear-gradient(135deg, #fce4ec, #f3e5f5);
+  color: #2c2c2c;
+
+  align-items: center;
+  padding-left: 140px; /* 120px sidebar + 20px buffer */
+  
+}
+header {
+  background-color: #384879;
+  padding: 0 5%;
+  border-color: #a9a9a9;
+  border-style: ridge;
+  border-width: 0 0 4px 0;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+h1 {
+  font-size: 3rem;
+  font-family: "Love Ya Like A Sister";
+  margin: 0;
+}
+h2{
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: #6d4c41;
+  margin-top: 0.5rem;
+}
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #888;
+  padding: 0 5% 10px 5%;
+}
